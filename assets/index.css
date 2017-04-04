@@ -1,0 +1,61 @@
+  .header {
+                font-size: 60;
+                font:"Times New Roman";
+                color:black;
+                background:linear-gradient(#ff1500, black);
+                position:absolute;
+                left:0;
+                right:0;
+                top:0;
+            }
+            .header2 {
+                font-size:40;
+                font:"Times New Roman";
+                color:#ff1500;
+                padding:6.8em;
+            }
+            .body2 {
+                font-size:20;
+                font:"Times New Roman";
+                color:#ff1500;
+            }
+            .names {
+                font-size:10;
+                font:"Times New Roman";
+                color:#ff1500;
+            }
+            #left {
+                position: absolute;
+                left: 0;
+                top:;
+                width: 50%;
+            }
+            #right {
+                position: absolute;
+                right: 0;
+                top:;
+                width: 50%;
+            }
+            .a:link {
+                color: ##ff1500;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .a:visited {
+                color: #c90700;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .a:hover {
+                color: #696865;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .a:active {
+                color: #ff1500;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            body {
+                background:black;
+            }
