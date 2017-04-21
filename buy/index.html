@@ -177,10 +177,8 @@
           window.onscroll = function() {scrollFunction()};
 
           function scrollFunction() {
-              $(document).ready(function(){
-                  $("button").documentElement.scrollTop(function(){
+              $("#btn").ready(function(){
                     $("#btn").fadeIn();
-                  });
             });
                     
               if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
