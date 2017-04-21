@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <link rel="shortcut icon" type="image/png" href="http://i64.tinypic.com/fzamp1.jpg">
         <title>Buy High School Track & Field</title>
         <style>
@@ -168,12 +169,20 @@
     </head>
 
     <body>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <div id="btn">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
         <script>
 // When the user scrolls down 20px from the top of the document, show the button
           window.onscroll = function() {scrollFunction()};
 
           function scrollFunction() {
+              $(document).ready(function(){
+                $("button").click(function(){
+                    $("#btn").fadeIn();
+                   });
+            });
+                    
               if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                   document.getElementById("myBtn").style.display = "block";
               } else {
